@@ -1,3 +1,5 @@
+`timescale 1ns / 1ps
+
 module vga_hsync (
     input logic clk,
     input logic reset,

@@ -4,7 +4,7 @@ module counter25MHz (
     output logic pixel_tick 
 );
 
-    logic [1:0] count;
+    logic [2:0] count;
     
     always_ff @(posedge clk) begin
         if (reset) begin
